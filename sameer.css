@@ -1,0 +1,453 @@
+/* body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#menu{
+    border: 1px solid black;
+    
+}
+#menu >ul{
+    background: lightcyan;
+}
+#menu ul{
+    list-style: none;
+    position: relative;
+     margin: 0;
+    padding: 0; 
+    float: left;
+
+}
+#menu ul a{
+    color:  red;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 32px;
+    padding: 0 15px;
+    display: block;   
+}
+#menu ul li {
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+#menu ul ul ul { 
+    position: absolute;
+    background-color: green;
+    top: 100%;
+    left: 0;
+}
+/* #menu ul ul li {
+    float: none;
+    width: 200px;
+} */
+/* .header{
+        border: 5px solid aquamarine;
+        margin: 5px;
+        padding: 5px;
+         
+        
+        
+
+}
+ #div1{
+    border: 2px inset red;
+    height:120px;
+    width: 120px;
+    margin-bottom: 5px;
+    display: block;
+    
+
+
+ }
+
+
+
+
+ #div2{
+    border: 2px inset  skyblue;
+    height:120px;
+    width: 120px;
+    margin-bottom: 5px;
+    
+    
+ }
+
+
+ #div3{
+    border: 2px inset rgb(155, 15, 125);
+    height:120px;
+    width: 120px;
+    margin-bottom: 5px;
+     
+
+    
+ }
+
+
+
+ #div4{
+    border: 2px inset rgb(83, 185, 24);
+    height:120px;
+    width: 120px;
+    margin-bottom: 5px;
+display: flex;
+flex-direction: row;
+    
+    
+
+    
+ }
+
+
+ #div5{
+    border: 2px inset rgb(27, 9, 128);
+    height:120px;
+    width: 120px;
+    margin-bottom: 5px;
+     
+ }
+ #main{
+    display: block;
+ }
+  */
+  /* ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 36px;
+    background-color:skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 36px;
+
+  }
+  li{
+    float: left;
+    text-transform: uppercase;
+    border-right: 1px solid green;
+
+  }
+  a{
+    display: block;
+    padding: 0 28px;
+    color:white;
+    text-decoration: none;
+
+  }
+  a:hover, .active a{
+    background-color: brown;
+  }
+ {
+    background-color: red;
+  }
+  .active a{
+    background-color: brown;
+  }
+  */
+  /* body{
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  #box{
+    width: 150px;
+    height: 150px;
+    background:  red;
+    transition-property:  all;
+    transition-duration: 2s; 
+    transition-timing-function: linear;
+    
+  
+
+    
+  }
+  #box:hover{
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+  } */
+  /* .header{
+    border: 10px solid skyblue;
+    border-radius: 13px;
+     display: flex; 
+     
+     flex-direction: row;
+     height: 400px;
+     flex-wrap:wrap; */
+     /* justify-content:center;
+     justify-content: start;
+     justify-content: end;
+     justify-content: space-between;
+     justify-content: space-around;
+     justify-content: space-evenly;
+     justify-content:last baseline; */
+     /* align-items: stretch;
+     align-items: flex-start;
+     align-items: flex-end;
+     
+     align-items: center;
+     align-items:flex-start;
+      
+     align-items: baseline;
+     
+    
+    
+ 
+  
+  } */
+  /* #div1{
+    border: 5px solid red;
+    height: 150px;
+    width: 150px;
+    border-radius: 4px;
+    
+    
+  }
+
+  #div2{
+    border: 5px solid blue;
+    height:150px;
+    width: 150px;
+    border-radius: 4px;
+    align-self: center;
+  }
+  #div3{
+    border: 5px solid green;
+    height: 150px;
+    width: 150px;
+    border-radius: 4px;
+    align-self:flex-end;
+     
+    flex-direction:row;
+    
+  }
+  #div4{
+    border: 5px solid maroon;
+    height: 150px;
+    width: 150px;
+    border-radius: 4px;
+    align-self: stretch;
+    align-self: center;
+  }
+  #div5{
+    border: 5px solid brown;
+    height: 150px;
+    width: 150px;
+    border-radius: 4px;
+    align-items: safe;
+
+     
+  }
+    */
+    /* .main{
+      border: 5px solid skyblue;
+      border-radius:4px;
+      color: blueviolet;
+      text-align: center;
+      text-decoration-line: underline;
+      text-decoration-color: rosybrown;
+     padding: 5px;
+     margin: 5px;
+     height:500px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     flex-direction: column;
+     flex-direction: column-reverse;
+     flex-flow: row wrap;
+     justify-content: end;
+     justify-content: start;
+     justify-content: center;
+     justify-content: space-around;
+     justify-content: space-between;
+     align-items: center;
+     align-items: end;
+     align-items: self-start;
+     align-items: self-end;
+     align-content:flex-start;
+     align-self: center;
+          
+      
+
+    }
+
+    #div1{
+      border: 3px solid skyblue;
+      border-radius: 5px;
+      color: blue;
+      text-transform: uppercase;
+      text-align: center;
+      text-decoration: wavy;
+      text-shadow: 5px;
+      margin: 25px;
+      padding: 50px;
+       
+      font-size: large;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+      font-style: italic;
+      width: 70px;
+      height: 40px;
+      align-self: center;
+      order: 1;
+      flex-grow:3;
+    }
+    #div2{
+      border: 5px solid skyblue;
+      border-radius: 5px;
+      color:red;
+      text-transform: uppercase;
+      text-align: center;
+      text-decoration: wavy;
+      text-shadow: 5px;
+      margin: 25px;
+      padding: 50px;
+       
+      font-size: large;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+      font-style: italic;
+      width:70px;
+      height: 40px;
+      align-self:flex-end;
+      order: 3;
+    }
+    #div3{
+      border: 3px solid skyblue;
+      border-radius: 5px;
+      color:green;
+      text-transform: uppercase;
+      text-align: center;
+      text-decoration: wavy;
+      text-shadow: 5px;
+      margin: 25px;
+      padding: 50px;
+       
+      font-size: large;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+      font-style: italic;
+      width: 70px;
+      height: 40px;
+      order: 5;
+    }
+
+    #div4{
+      border: 3px solid skyblue;
+      border-radius: 5px;
+      color:rgb(0, 4, 219);
+      text-transform: uppercase;
+      text-align: center;
+      text-decoration: wavy;
+      text-shadow: 5px;
+      margin: 25px;
+      padding: 50px;
+      
+      font-size: large;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+      font-style: italic;
+      width: 70px;
+      height: 40px;
+      order: 1;
+    }
+    #div5{
+      border: 3px solid skyblue;
+      border-radius: 5px;
+      color:black;
+      text-transform: uppercase;
+      text-align: center;
+      text-decoration: wavy;
+      text-shadow: 5px;
+      margin: 25px;
+      padding: 50px;
+      
+     order: 1;
+      font-size: large;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+      font-style: italic;
+      width: 70px;
+      height:40px
+      
+    }
+      */
+      .header{
+        border: 8px red solid;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        
+        
+
+      }
+      #id1{
+        border: 4px skyblue inset;
+        margin: 5px;
+        padding: 5px;
+        line-height: 4px;
+        font-size: larger;
+        font-weight: bolder;
+        text-align: center;
+        text-decoration: underline;
+        color: peru;
+        height:100px;
+        width:90px;
+      }
+      #id2{
+        border: 4px skyblue inset;
+        margin: 5px;
+        padding: 5px;
+        line-height: 4px;
+        font-size: larger;
+        font-weight: bolder;
+        text-align: center;
+        text-decoration: underline;
+        color: peru;
+        height:100px;
+        width:90px;
+
+      }
+      #id3{
+        border: 4px skyblue inset;
+        margin: 5px;
+        padding: 5px;
+        line-height: 4px;
+        font-size: larger;
+        font-weight: bolder;
+        text-align: center;
+        text-decoration: underline;
+        color: peru;
+        height:100px;
+        width:90px;
+
+      }
+      #id4{
+        border: 4px skyblue inset;
+        margin: 5px;
+        padding: 5px;
+        line-height: 4px;
+        font-size: larger;
+        font-weight: bolder;
+        text-align: center;
+        text-decoration: underline;
+        color: peru;
+        height:100px;
+        width:90px;
+
+      }
+      #id5{
+        border: 4px skyblue inset;
+        margin: 5px;
+        padding: 5px;
+        line-height: 4px;
+        font-size: larger;
+        font-weight: bolder;
+        text-align: center;
+        text-decoration: underline;
+        color: peru;
+        height:100px;
+        width:90px;
+
+      }
